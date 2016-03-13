@@ -1,0 +1,20 @@
+{
+  "name": "base",
+  "version": "0.0.0",
+  "homepage": "https://github.com/G2H/base",
+  "authors": [
+    "ghh <ghhuon@gmail.com>"
+  ],
+  "license": "UNLICENSED",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "node_modules",
+    "src/bower_components"
+  ],
+  "dependencies": {
+    "react": "~0.14.7",
+    "d3": "~3.5.16"
+  }
+}

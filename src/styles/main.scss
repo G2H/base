@@ -1,0 +1,25 @@
+$font: 'Montserrat';
+$primary-color: #333;
+$backgound-color: #3498DB;
+
+html, body {
+  height: 100%; width: 100%;
+}
+
+body {
+  font: 100% $font;
+  color: $primary-color;
+  background-color: $backgound-color;
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+}
+
+#hello {
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  font-size: 700%;
+  font-variant: small-caps;
+  vertical-align: middle;
+}
