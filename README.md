@@ -23,7 +23,13 @@ bower install
 grunt
 ```
 
-## B) Production: run in docker
+## B) Compile everything for production
+```
+using grunt
+todo
+```
+
+## C) Production: run in docker
 
 ## Create a new VM on cloud engine
 ```

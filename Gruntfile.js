@@ -114,7 +114,7 @@ module.exports = function (grunt) {
     'sass:tmp',
   ]);
 
-  // Serve: shoul serve and refresh the content of tmp
+  // Serve: should serve and refresh the content of tmp
   // Inject; wiredep; tmpbuild; on src change, delete old, replace newer in tmp;
   // on src/styles change, sass compile to tmp; watch tmp for live reload.
   grunt.registerTask('serve', [

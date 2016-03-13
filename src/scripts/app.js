@@ -1,7 +1,7 @@
 
 var format = d3.format(",d");
 
-d3.select("#hello")
+d3.select("#numbers")
   .transition()
     .duration(2500)
     .on("start", function repeat() {
